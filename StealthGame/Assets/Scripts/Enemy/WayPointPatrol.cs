@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 namespace StealthGame
 {
-    public class WaypointPatrol : MonoBehaviour
+    public class WayPointPatrol : MonoBehaviour
     {
         [SerializeField] private float moveSpeed;               //  ˆÚ“®‘¬“x(unit/sec)
         [SerializeField] private List<Transform> waypoints;     //  WayPointƒŠƒXƒg

@@ -7,6 +7,7 @@ namespace StealthGame
 {
     public class Observer : MonoBehaviour
     {
+        private GameManager gameManager;
         private Transform player;
         private bool m_IsPlayerInRange;
 
@@ -15,6 +16,9 @@ namespace StealthGame
             //  シーン上にいるプレイヤーを探して登録する
             player = GameObject.FindGameObjectWithTag("Player")?.transform;
             m_IsPlayerInRange = false;
+
+            //  Game Managerを取得する
+            gameManager = GameObject.FindGameObjectWithTag("GameManager")?.GetComponent<GameManager>();
         }
 
         private void Update()
@@ -33,6 +37,7 @@ namespace StealthGame
                     if (raycastHit.collider.CompareTag("Player"))
                     {
                         Debug.Log("Playerを発見！");
+                        gameManager.GameOver();
                     }
                 }
             }

@@ -1,0 +1,10 @@
+﻿
+2026-11-11 12:24:05  Submit tool started.
+2026-11-11 12:24:05  ProjectRoot: C:\新しいフォルダー\StealthGame
+2026-11-11 12:24:05  Checking: C:\新しいフォルダー\StealthGame\Assets
+2026-11-11 12:24:05  Checking: C:\新しいフォルダー\StealthGame\Packages
+2026-11-11 12:24:05  Checking: C:\新しいフォルダー\StealthGame\ProjectSettings
+2026-11-11 12:24:22  Created Submit directory.
+2026-11-11 12:24:22  ZIP output: C:\新しいフォルダー\StealthGame\Submit\2595sc0006_UnityTask_20261111_122422.zip
+2026-11-11 12:24:22  Starting Compress-Archive.
+2026-11-11 12:24:36  ZIP created successfully. Size: 180.7 MB
