@@ -21,7 +21,7 @@ namespace StealthGame
             gameManager = GameObject.FindGameObjectWithTag("GameManager")?.GetComponent<GameManager>();
         }
 
-        private void Update()
+        private void Update ()
         {
             //  プレイヤーが索敵範囲内にいる
             if (m_IsPlayerInRange)
@@ -32,7 +32,7 @@ namespace StealthGame
                 RaycastHit raycastHit;
 
                 //  直線上にPlayerがいる場合、Playerを発見したことにする
-                if (Physics.Raycast(ray, out raycastHit))
+                if (Physics.Raycast (ray, out raycastHit))
                 {
                     if (raycastHit.collider.CompareTag("Player"))
                     {
@@ -43,7 +43,7 @@ namespace StealthGame
             }
         }
 
-        private void OnTriggerEnter(Collider other)
+        private void OnTriggerEnter (Collider other)
         {
             //  索敵範囲内にPlayerが入った
             if (other.CompareTag("Player"))
@@ -52,7 +52,7 @@ namespace StealthGame
             }
         }
 
-        private void OnTriggerExit(Collider other)
+        private void OnTriggerExit (Collider other)
         {
             //  索敵範囲内からPlayerが出た
             if (other.CompareTag("Player"))
