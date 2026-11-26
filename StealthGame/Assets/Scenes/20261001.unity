@@ -7976,8 +7976,6 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 0}
     value: {fileID: 233902642}
-  - key: {fileID: 8519966504827245417, guid: 2a0274cd686780b4cbd89d724a4aab1f, type: 2}
-    value: {fileID: 41293276}
   - key: {fileID: -1620714794286333225, guid: 2a0274cd686780b4cbd89d724a4aab1f, type: 2}
     value: {fileID: 233902642}
   - key: {fileID: 6230797897556313493, guid: 2a0274cd686780b4cbd89d724a4aab1f, type: 2}
